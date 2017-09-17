@@ -1,0 +1,11 @@
+{
+	"compilerOptions": {
+		"target": "es5",
+		"outFile": "bin/nano.js",
+		"allowJs": true
+	},
+	"files": [
+		"src/protocol.js",
+		"src/nano.js"
+	]
+}

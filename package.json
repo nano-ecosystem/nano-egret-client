@@ -1,0 +1,8 @@
+{
+	"name": "egret",
+	"version": "2.4.3",
+	"typings": "src/nano.d.ts",
+	"dependencies": {
+		"events": "^1.1.1"
+	}
+}
