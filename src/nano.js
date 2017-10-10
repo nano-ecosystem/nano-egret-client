@@ -220,6 +220,7 @@
     initCallback = cb;
     var host = params.host;
     var port = params.port;
+    var path = params.path;
 
     encode = params.encode || defaultEncode;
     decode = params.decode || defaultDecode;
@@ -227,6 +228,10 @@
     var url = 'ws://' + host;
     if(port) {
       url +=  ':' + port;
+    }
+
+    if(path) {
+      url += path;
     }
 
     handshakeBuffer.user = params.user;
